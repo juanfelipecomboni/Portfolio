@@ -1,0 +1,62 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-image: url(file:///PWF/Student/juan_comboni/new_website/about/images/blackWallpaper.jpg);
+}
+#out-wrapper {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	height: auto;
+}
+#logo {
+	float:left;
+}
+#menu {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -80px;
+	margin-bottom: 0px;
+	width:850px;
+}
+#menu .bmenu{
+	padding-top: 75px;
+	margin-top: 10px;
+	padding-left:100px;
+	margin-bottom: 10px;
+}
+#menu .bmenu li{
+    font-size: 20px;
+    display: inline-block;
+	/*width: 200px;*/
+}
+#menu .bmenu li a{
+	display: inline-block;
+	text-transform: uppercase;
+	text-shadow: 0px 0px 2px #6dbd2a;
+    color: #6dbd2a;
+	padding: 5px 20px;
+	margin: 2px;
+	background: rgba(0,0,0,0.7);
+	letter-spacing: 1px;
+	-webkit-transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+	-ms-transition: all 0.2s linear;
+	transition: all 0.2s linear;
+	text-decoration: none;
+	font-family: "PT Sans Narrow", Arial, sans-serif;
+}
+#menu .bmenu:hover li a{
+    text-shadow: 0px 0px 10px #6dbd2a;
+    color: transparent;
+	/*background-color: #666;*/
+    /*background: rgba(0,0,0,0.2);*/
+	text-decoration: none;
+}
+#menu .bmenu li a:hover{
+    background: rgba(0,0,0,1.0);
+    text-shadow: 0px 0px 1px #6dbd2a;
+}

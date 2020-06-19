@@ -1,0 +1,110 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-image: url(file:///PWF/Student/jcomboni/new_website/about/images/blackWalpaper.jpg);
+}
+#wrapper {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	height: auto;
+}
+#menu {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -80px;
+	margin-bottom: 0px;
+	width:850px;
+}
+.bmenu{
+	padding-top: 75px;
+	padding-left: 100px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.bmenu li{
+    font-size: 20px;
+    display: inline-block;
+	/*width: 300px;*/
+}
+.bmenu li a{
+    display: inline-block;
+    text-transform: uppercase;
+    text-shadow: 0px 0px 2px #6dbd2a;
+    color: #6dbd2a;
+    padding: 5px 20px;
+    margin: 2px;
+    background: rgba(0,0,0,0.7);
+    letter-spacing: 1px;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    -ms-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+	text-decoration: none;
+}
+.bmenu:hover li a{
+    text-shadow: 0px 0px 10px #6dbd2a;
+    color: transparent;
+	background-color: 
+    /*background: rgba(0,0,0,0.2);*/
+	text-decoration: none;
+}
+.bmenu li a:hover{
+    background: rgba(0,0,0,1.0);
+    text-shadow: 0px 0px 1px #6dbd2a;
+}
+#content {
+	width:1000px;
+	padding-left:100px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#innercontent1 {
+	padding-top:20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 18px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 20px;
+	color: #CCC;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 300px;
+	float: left;
+}
+p {
+	line-height: 100%;
+}
+#innercontent2 {
+	color: #6dbd2a;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-left:100px;
+	margin-top:10px;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 50%;
+	font-size: 18px;
+	float:left;
+} 
+#innercontent2 ul {
+	list-style-type: none;
+}
+#innercontent2 a img  {
+	float:left;
+	/*margin-bottom:10px;*/
+}
+#innercontent2 a p  {
+	color:#CCC;
+	font-size: 14px;
+	margin-top: 20px;
+	padding-top:20px;
+	padding-left:70px;
+	/*float:left;*/
+}
+#innercontent2 a:hover p  {
+	text-decoration:underline;
+	color:#6db2a;
+}

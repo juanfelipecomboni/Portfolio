@@ -1,0 +1,83 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-image: url(../images/greenLine.jpg);
+	background-size: 100%;
+}
+#wrapper {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-image: url(../images/greenLine.jpg);
+}
+#menu {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 75px;
+	margin-bottom: 0px;
+	width:1000px;
+}
+.bmenu{
+	padding-top: 0px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.bmenu li{
+    font-size: 50px;
+    display: block;
+	width: 600px;
+}
+.bmenu li a{
+	display: block;
+	text-transform: uppercase;
+	text-shadow: 0px 0px 2px #6dbd2a;
+	color: #6dbd2a;
+	padding: 5px 20px;
+	margin: 2px;
+	background: rgba(0,0,0,0,1);
+	letter-spacing: 2px;
+	-webkit-transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+	-ms-transition: all 0.2s linear;
+	transition: all 0.2s linear;
+	text-decoration: none;
+}
+.bmenu:hover li a{
+	text-shadow: 0px 0px 10px #6dbd2a;
+	color: transparent;
+	background: rgba(0,0,0,0.2);
+	text-decoration: none;
+}
+.bmenu li a:hover{
+    background: rgba(0,0,0,1.0);
+    text-shadow: 0px 0px 1px #6dbd2a;
+}
+#container {
+	display: block;
+	float: left;
+	width: 950px;
+	margin-top: 5px;
+	margin-left: auto;
+	margin-bottom: 5px;
+	margin-right: auto;
+	border: medium solid #666;
+	box-shadow: 0px 0px 15px #000;
+}
+footer {
+	color: #6dbd2a;
+	text-shadow: 0 1px 0 #6dbd2a;
+	background-color: #00000;
+	width: 100%;
+	display: block;
+	position: relative;
+}
+footer {
+	margin-left: 450px;
+	margin-right: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+}
