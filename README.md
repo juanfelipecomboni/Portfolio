@@ -1,2 +1,2 @@
 # Portfolio
- Display iof my work 
+ Display of my work 
