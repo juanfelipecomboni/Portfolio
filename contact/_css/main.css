@@ -4,6 +4,8 @@
 body {
 	background-image: url(file:///PWF/Student/jcomboni/new_website/about/images/blackWalpaper.jpg);
 }
+
+
 #wrapper {
 	margin-top: 10px;
 	margin-bottom: 10px;
@@ -48,7 +50,7 @@ body {
 .bmenu:hover li a{
     text-shadow: 0px 0px 10px #6dbd2a;
     color: transparent;
-	background-color: 
+	background-color:
     /*background: rgba(0,0,0,0.2);*/
 	text-decoration: none;
 }
@@ -88,7 +90,7 @@ p {
 	width: 50%;
 	font-size: 18px;
 	float:left;
-} 
+}
 #innercontent2 ul {
 	list-style-type: none;
 }
