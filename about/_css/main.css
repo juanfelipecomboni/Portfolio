@@ -27,7 +27,7 @@ body {
 .bmenu li{
     font-size: 20px;
     display: inline-block;
-	
+
 }
 .bmenu li a{
     display: inline-block;
@@ -48,14 +48,14 @@ body {
 .bmenu:hover li a{
     text-shadow: 0px 0px 10px #6dbd2a;;
     color: transparent;
-	background-color: 
+	background-color:
     /*background: rgba(0,0,0,0.2);*/
 	text-decoration: none;
 }
 .bmenu li a:hover{
     background: rgba(0,0,0,1.0);
     text-shadow: 0px 0px 1px #6dbd2a;
-	
+
 }
 #content1 {
 	padding-top:20px;
@@ -76,6 +76,9 @@ body {
 p {
 	line-height: 180%;
 }
+#content1 p a {
+	color:#7be154;
+}
 #content2 {
 	color: #CCC;
 	padding-top: 20px;
@@ -87,8 +90,8 @@ p {
 	font-family: Arial, Helvetica, sans-serif;
 	width: 800px;
 	font-size: 18px;
-} 
+}
 #content2 p a {
-	
+
 	color:#7be154;
 }
