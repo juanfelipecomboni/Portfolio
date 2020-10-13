@@ -13,7 +13,7 @@
 	<body>
 		<div class="container">
             <h1><img src="images/JFClogos.png" width="385" height="137" alt="logo"><span>Some Photos to enjoy</span></h1>
-            
+
 			<div class="out-wrapper">
     		<div id="menu">
                 <ul class="bmenu">
@@ -24,7 +24,7 @@
                     <li><a href="../contact/index.html">Contact Info</a></li>
                 </ul>
             </div>
-            
+
 			<div class="wrapper">
 				<ul id="sb-slider" class="sb-slider">
 					<li>
@@ -39,6 +39,12 @@
 							<h3>Orange Flower</h3>
 						</div>
 					</li>
+					<li>
+						<a href="#"><img src="images/Pedernales.jpg" alt="image3"/></a>
+						<div class="sb-description">
+							<h3>Pedernales State Park</h3>
+						</div>
+					</li>
 				</ul>
 
 				<div id="shadow" class="shadow"></div>
@@ -47,7 +53,7 @@
 					<a href="#">Next</a>
 					<a href="#">Previous</a>
 				</div>
-                
+
                 <div id="nav-dots" class="nav-dots">
 					<span class="nav-dot-current"></span>
 					<span></span>
@@ -84,11 +90,11 @@
 
 							}
 						} ),
-						
+
 						init = function() {
 
 							initEvents();
-							
+
 						},
 						initEvents = function() {
 
@@ -101,30 +107,30 @@
 							} );
 
 							$navArrows.children( ':last' ).on( 'click', function() {
-								
+
 								slicebox.previous();
 								return false;
 
 							} );
 
 							$nav.each( function( i ) {
-							
+
 								$( this ).on( 'click', function( event ) {
-									
+
 									var $dot = $( this );
-									
+
 									if( !slicebox.isActive() ) {
 
 										$nav.removeClass( 'nav-dot-current' );
 										$dot.addClass( 'nav-dot-current' );
-									
+
 									}
-									
+
 									slicebox.jump( i + 1 );
 									return false;
-								
+
 								} );
-								
+
 							} );
 
 						};
