@@ -2,7 +2,7 @@
 /* CSS Document */
 
 body {
-	background-image: url(file:///PWF/Student/juan_comboni/new_website/about/images/blackWallpaper.jpg);
+	background-image: url(../images/blackWallpaper.jpg);
 }
 #out-wrapper {
 	margin-top: 50px;

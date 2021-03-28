@@ -1,6 +1,6 @@
 * { margin: 0; padding: 0; }
 html { height: 101%; }
-body { background: #fff url('images/blackWallpaper.jpg'); font-size: 62.5%; padding-bottom: 65px; }
+body { background: #fff url('images/\backgroundbrick.jpg'); font-size: 62.5%; padding-bottom: 65px; }
 
 h1 { font-family: "Simonetta", "Trebuchet MS", Arial, sans-serif; color: #454545; font-size: 3.6em; margin-bottom: 6px; }
 h2 { font-family: "Simonetta", "Trebuchet MS", Arial, sans-serif; color: #484848; font-size: 2.5em; margin-bottom: 10px; text-decoration: underline; }
@@ -25,7 +25,7 @@ header { width: 100%; }
 /** @group personal settings **/
 #info { float: left; margin-bottom: 12px; }
 #photo { float: right; }
-#photo img { 
+#photo img {
 -webkit-border-radius: 3px;
 -moz-border-radius: 3px;
 border-radius: 3px;
@@ -34,7 +34,7 @@ border-radius: 3px;
 box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 background-color: #ccc;
 border: 1px solid #fff;
-padding: 5px; 
+padding: 5px;
 }
 
 /** @group skills **/
@@ -66,6 +66,6 @@ footer {
 /** @group clearfix **/
 .clearfix:after { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0; }
 .clearfix { display: inline-block; }
- 
+
 html[xmlns] .clearfix { display: block; }
 * html .clearfix { height: 1%; }
