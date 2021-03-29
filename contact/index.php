@@ -86,13 +86,15 @@
         <div id="innercontent2">
         	<h2><span>Social Media</span></h2>
             <ul>
-                <li><a href="https://www.linkedin.com/in/felipe-comboni-2b988a3b/"target="_blank"><img src="images/linkedin_logo.png"  width="50" height="50" alt="linkedin">
+                <li><a href="https://www.linkedin.com/in/felipe-comboni-2b988a3b/"class= "sociallinks__SocialLink-sc-14uqjo7-0 jauOBn" target="_blank"><img src="images/linkedin_logo.png"  width="50" height="50" alt="linkedin">
                 <p> Connect with me on LinkedIn</p></a></li>
+								<li><a href="https://github.com/juanfelipecomboni"target="_blank"><img src="images/githubw.jpg"  width="50" height="50" alt="github">
+                <p> Look at me on GitHub</p></a></li>
 
-				<!--<li><a href="https://plus.google.com/u/0/+JuanFelipeComboni"target="_blank"><img src="images/googleplus-icon.png"  width="50" height="50" alt="googlePlus">
-                <p> Connect with me on Google</p></a></li>
-				<li><a href="https://www.facebook.com/JuanFelipeComboni"target="_blank"><img src="images/facebook-logo.png"target="_blank" width="50" height="50" alt="facebook">
-                <p>Connect with me on Facebook</p></a></li>
+								<!--<li><a href="https://plus.google.com/u/0/+JuanFelipeComboni"target="_blank"><img src="images/googleplus-icon.png"  width="50" height="50" alt="googlePlus">
+				                <p> Connect with me on Google</p></a></li>
+								<li><a href="https://www.facebook.com/JuanFelipeComboni"target="_blank"><img src="images/facebook-logo.png"target="_blank" width="50" height="50" alt="facebook">
+	                <p>Connect with me on Facebook</p></a></li>
 
                 <li><a href="https://twitter.com/jfcomboni" target="_blank"><img src="images/twitter-bird-light-logo.png"  width="50" height="50" alt="twitter">
                 <p>Connect with me on Twitter</p></a></li> -->
