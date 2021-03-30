@@ -86,10 +86,10 @@
         <div id="innercontent2">
         	<h2><span>Social Media</span></h2>
             <ul>
-                <li><a href="https://www.linkedin.com/in/felipe-comboni-2b988a3b/"class= "sociallinks__SocialLink-sc-14uqjo7-0 jauOBn" target="_blank"><img src="images/linkedin_logo.png"  width="50" height="50" alt="linkedin">
+                <li><a href="https://www.linkedin.com/in/felipe-comboni-2b988a3b/"class= "sociallinks__SocialLink-sc-14uqjo7-0 jauOBn" target="_blank"><img src="images/linkedin_logow.png"  width="50" height="50" alt="linkedin">
                 <p> Connect with me on LinkedIn</p></a></li>
-								<li><a href="https://github.com/juanfelipecomboni"target="_blank"><img src="images/githubw.jpg"  width="50" height="50" alt="github">
-                <p> Look at me on GitHub</p></a></li>
+								<li><a href="https://github.com/juanfelipecomboni"target="_blank"><img src="images/githublogo.png"  width="50" height="50" alt="github">
+                <p> Take a look at my GitHub</p></a></li>
 
 								<!--<li><a href="https://plus.google.com/u/0/+JuanFelipeComboni"target="_blank"><img src="images/googleplus-icon.png"  width="50" height="50" alt="googlePlus">
 				                <p> Connect with me on Google</p></a></li>
