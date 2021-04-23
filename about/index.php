@@ -31,11 +31,11 @@
 							<li>Architectural</li>
 							<li>Wedding Photography.</li>
 						 </div>
-							Some of projects I have worked on can be found on the <a href="../web/index.php">Website Page. </a> My most recent photographs which you can see on <a href="../gallery/index.php">Gallery Page.</a>
+					   <div> Some of projects I have worked on can be found on the <a href="../web/index.php">Website Page. </a> My most recent photographs which you can see on <a href="../gallery/index.php">Gallery Page.</a>
 							besides having eight years of experience in information technology. Maintaining , configuring Windows Servers and Administering Office 365. I am also proficient with Python &amp; Powershell.
 							I am a young professinal ready for new challenges that will allow me to be exposed to new technologies and learn new things.
 							<p>For any Inquiry please feel free to <a href="../contact/index.php">Contact me.</a></p>
-						</p>
+						</div>
         </div>
           <div id="content2">
         	<p>Take a look at my <a href="../images/Resume IT Mod.pdf" download="Resume">Resume</a></p>
