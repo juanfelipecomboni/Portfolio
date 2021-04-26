@@ -29,13 +29,21 @@
                         <a href="http://www.karstenconstruction.com/"  target="_blank" class="info">Click to Visit Site</a>
                     </div>
                 </div>
-                <div class="view view-tenth">
+                <!-- <div class="view view-tenth">
                     <img src="images/prayMadrid.jpg" width="100%" height="100%" align="center" valign="center" />
                     <div class="mask">
                         <h2>Greater Europe Mission</h2>
                         <p> Project for LM2 Madrid</p>
                         <a href="http://prayformadrid.com/" target="_blank" class="info">Click to Visit Site</a>
 
+                    </div>
+                </div> -->
+								<div class="view view-tenth">
+                    <img src="images/jfcomboniHome.png" width="100%" height="100%" align="center" valign="center" />
+                    <div class="mask">
+                        <h2>My Portfolio</h2>
+                        <p> Website to show my work</p>
+                        <a href="/" target="_blank" class="info">Click to Visit Site</a>
                     </div>
                 </div>
 
