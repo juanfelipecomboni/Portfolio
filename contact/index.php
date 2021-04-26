@@ -3,6 +3,7 @@
 <head>
 	<?php
 		include '../Header.php';
+
 	?>
 <title>Contact Me</title>
 </head>
@@ -18,13 +19,13 @@
 								<li><a href="../gallery/index.php">Gallery</a></li>
 								<li><a href="../web/index.php">Websites</a></li>
 								<li><a href="../about/index.php">About Me</a></li>
-								<li><a href="../contact/index.php">Contact Info</a></li>
+								<li><a href="../contact/index.php">Contact</a></li>
 						</ul>
 				</div>
         <div id="content">
         <div id="innercontent1">
         	<h2><span>Email</span></h2>
-					<form class="needs-validation" novalidate= "" action="/echo" method="POST" id="myForm">
+					<form   method="POST" a class="needs-validation" novalidate= "" action="acknowledge.php"  id="myForm">
 						<div class="form-group">
 						  <div class="form-row">
 						      <label for="validation01">First Name: </label>
@@ -38,7 +39,7 @@
 								</div>
 							<div class= "form-row">
 								<label for=validation02>Last Name: </label>
-								<input type="text" class= "form-control"  id= "validation02" name="lastname" minlength="3" maxlength="12" placeholder = "Last Name " pattern="[A-Za-z]{3,30}" required>
+								<input type="text" class= "form-control"  id= "validation02" name="LastName" minlength="3" maxlength="12" placeholder = "Last Name " pattern="[A-Za-z]{3,30}" required>
 								<div class ="valid-feedback">
 									Looks Good!
 								</div>
@@ -48,7 +49,7 @@
 							</div>
 							<div class= "form-row">
 								<label for = "validation03"> Phone Number: </label>
-								<input type="tel" id="phone"  class= "form-control" id= "validation03" name="phone" placeholder="000-00-0000"  maxlength="12" pattern='^\+?\d{0,13}' required>
+								<input type="tel" id="phone"  class= "form-control" id= "validation03" name="Phone" placeholder="000-00-0000"  maxlength="12" pattern='^\+?\d{0,13}' required>
 								<div class="valid-feedback">
 									Looks Good!
 								</div>
@@ -58,7 +59,7 @@
 							</div>
 							<div class= "form-row">
 								<label for = "validation04"> Email: </label>
-								<input type= "email" class= "form-control" id="validation4" placeholder="name@example.com" name="email"
+								<input type= "email" class= "form-control" id="validation4" placeholder="name@example.com" name="Email"
 								pattern="^(([-\w\d]+)(\.[-\w\d]+)*@([-\w\d]+)(\.[-\w\d]+)*(\.([a-zA-Z]{2,5}|[\d]{1,3})){1,2})$" required>
 								<div class="valid-feedback">
 									Looks Good!
@@ -70,7 +71,7 @@
 							</div>
 							<div class= "form-row">
 								<label for = "validation05"> Questions?</label>
-	            	<textarea rows="4" cols="40"  class= "form-control" placeholder="Type Your Message here.... " required></textarea>
+	            	<textarea rows="4" cols="40"   name= "TextField" class= "form-control" placeholder="Type Your Message here.... " required></textarea>
 								<div class="valid-feedback">
 									Looks Good!
 								</div>
@@ -79,7 +80,7 @@
 								</div>
 							</div><br>
 						</div>
-						<button type="submit" class="btn btn-outline-light">Send Email</button>
+						<button type="submit" name='send' class="btn btn-outline-light">Send Email</button>
 
           </form>
         </div><!-- /innercontent1 -->
@@ -101,7 +102,7 @@
             </ul>
         </div><!-- /innercontent2 -->
         </div><!-- /content -->
-        <p class="info"> Juan Felipe Comboni | © Copyright 2013 - Present | JFCinc.</p>
+        <p class="info"> Juan Felipe Comboni | © Copyright 2013 - Present | jfcomboni. </p>
     </div>
     </div>
 </body>
