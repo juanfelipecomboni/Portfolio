@@ -8,7 +8,7 @@
 	</head>
 	<body>
 		<div class="container">
-			<h1><img src="images/JFClogos.png" width="385" height="137" alt="logo"><span>Contact Me</span></h1>
+			<h1><img src="images/JFClogos.png" width="385" height="137" alt="logo"><span>Product Shots</span></h1>
 			<div id="wrapper">
 					<div id="menu">
 								<ul class="bmenu">
