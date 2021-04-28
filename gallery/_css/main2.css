@@ -10,14 +10,14 @@
 	margin: 0;
 }
 
-/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
+
 .clearfix:after {
 	content: "";
 	display: table;
 	clear: both;
 }
 
-/* General Demo Style */
+/* General  Style */
 body {
 	background: #e4ebe9 url(../images/blackWallpaper.jpg) repeat top left;
 	color: #444;
