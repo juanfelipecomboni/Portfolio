@@ -41,7 +41,7 @@
                 <div class="view view-tenth">
                     <img src="images/flower.jpg" width="100%" height="100%" align="center" valign="center" />
                     <div class="mask">
-                        <h2>Landscape</h2>
+                        <h2>Landscape/Nature</h2>
                         <p>Beautiful creation</p>
                         <a href="nature.php" class="info">click to view More</a>
                     </div>
